@@ -1,0 +1,48 @@
+Toets FW Stappenplan voor klas 2109A
+
+    Stap_01: Voer het aangeleverde sql script(Creatie Accountancy database script) 
+             uit om Accountancy database aan te maken.
+
+    Stap_02: Pass de cofig file aan met de naam van de Accountancy databse.
+
+    Stap_03: Breid de InvoiceModel uit met methode heet getInvoices 
+	         om alle Invoices vanuit database op te halen.
+
+	Stap_04: Breid de InvoiceModel uit met methode heet getInvoiceById 
+	         om de geselecteerde Invoice vanuit database bij Id op te halen.
+
+	Stap_05: Breid de InvoiceModel uit met methode heet createInvoice
+	         om de nieuwe Invoice in database toe te voegen.
+
+	Stap_06: Breid de InvoiceModel uit met methode heet updateInvoice
+	         om de geselecteerde Invoice in database aan te passen.
+
+	Stap_07: Breid de InvoiceModel uit met methode heet deleteInvoice
+	         om de geselecteerde Invoice in database te verwijderen.
+
+	Stap_08: Breid de Invoice controller uit met methode heet index 
+	         om alle Invoices vanuit InvoiceModel door te sturen naar index view.
+
+	Stap_09: Breid de Invoice controller uit met methode heet details 
+	         om de geselecteerde Invoice vanuit InvoiceModel door te sturen naar details view.
+
+	Stap_10: Breid de Invoice controller uit met methode heet create 
+	         om nieuwe Invoice vanuit InvoiceModel door te sturen naar create view.
+			 En daarna wordt weer naar InvoiceModel gestuurd en toegevoegd in database.
+
+	Stap_11: Breid de Invoice controller uit met methode heet update 
+	         om de geselecteerde Invoice vanuit InvoiceModel door te sturen naar update view.
+			 En daarna wordt weer naar InvoiceModel gestuurd en bijgewerkt in database. 
+
+	Stap_12: Breid de Invoice controller uit met methode heet delete 
+	         om de geselecteerde Invoice door InvoiceModel te verwijderen.
+
+	Stap_13: Maak nieuwe view aan heet index in Views/Invoice om alle Invoices te tonen.
+
+	Stap_14: Maak nieuwe view aan heet details in Views/Invoice om de geselecteerde Invoice te tonen.
+
+	Stap_15: Maak nieuwe view aan heet cerate in Views/Invoice om de nieuwe Invoice in database toe te voegen.
+
+	Stap_16: Maak nieuwe view aan heet update in Views/Invoice om de geselecteerde Invoice in database aan te passen.
+
+	Stap_17: Maak nieuwe view aan heet delete in Views/Invoice om de geselecteerde Invoice van database te verwijderen.
